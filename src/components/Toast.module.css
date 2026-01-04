@@ -1,0 +1,29 @@
+.wrap{
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 750;
+  letter-spacing: 0.2px;
+  z-index: 99;
+
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(18,18,22,0.92);
+  color: rgba(255,255,255,0.92);
+  box-shadow: 0 14px 44px rgba(0,0,0,0.38);
+  animation: toastIn 140ms ease-out;
+}
+
+@keyframes toastIn{
+  from{ transform: translateX(-50%) translateY(6px); opacity: 0; }
+  to{ transform: translateX(-50%) translateY(0); opacity: 1; }
+}
+
+:root[data-theme="light"] .wrap{
+  border-color: rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.92);
+  color: rgba(0,0,0,0.82);
+}

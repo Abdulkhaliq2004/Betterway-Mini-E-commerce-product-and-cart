@@ -1,0 +1,45 @@
+.wrap{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 0;
+}
+.brand{
+  display:flex;
+  gap: 10px;
+  align-items: center;
+  min-width: 0;
+}
+.logo{
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: rgba(131, 56, 236, 0.18);
+  border: 1px solid rgba(131, 56, 236, 0.35);
+  display:grid;
+  place-items:center;
+  font-size: 20px;
+}
+.name{
+  font-weight: 950;
+  letter-spacing: 0.2px;
+}
+.tag{
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 2px;
+}
+.right{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+.cartPill{
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.18);
+  font-size: 12px;
+  color: var(--text);
+}

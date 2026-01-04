@@ -1,0 +1,89 @@
+.card{
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  padding: 14px;
+  position: sticky;
+  top: 14px;
+}
+.headerInline{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.title{
+  font-weight: 900;
+  font-size: 14px;
+}
+.pills{
+  display:flex;
+  gap: 8px;
+}
+.pill{
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.18);
+  font-size: 12px;
+  color: var(--text);
+}
+
+.items{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.footer{
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  display:flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.totals{
+  font-size: 12px;
+  color: var(--muted);
+  display:flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.footerActions{
+  display:flex;
+  gap: 10px;
+}
+
+/* compact */
+.compactCard{
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  padding: 14px;
+}
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.meta{
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  display:flex;
+  align-items: center;
+  gap: 8px;
+}
+.dot{
+  opacity: 0.6;
+}
+.headerActions{
+  display:flex;
+  gap: 8px;
+}

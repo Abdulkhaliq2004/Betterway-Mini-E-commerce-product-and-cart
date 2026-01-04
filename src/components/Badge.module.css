@@ -1,0 +1,16 @@
+.badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  white-space: nowrap;
+}
+.neutral{ background: rgba(255,255,255,0.06); }
+.success{ background: rgba(46, 204, 113, 0.12); border-color: rgba(46, 204, 113, 0.35); color: rgba(46, 204, 113, 0.95); }
+.danger{ background: rgba(231, 76, 60, 0.12); border-color: rgba(231, 76, 60, 0.35); color: rgba(231, 76, 60, 0.95); }

@@ -1,0 +1,32 @@
+.wrap{
+  border: 1px dashed rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  padding: 18px;
+  text-align: center;
+}
+.icon{
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 10px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.06);
+  font-size: 26px;
+}
+.title{
+  font-weight: 800;
+  font-size: 15px;
+}
+.desc{
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.actions{
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
