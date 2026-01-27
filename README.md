@@ -32,8 +32,6 @@ The focus of this project is correctness, clarity, and good React practices rath
 
 ## APIs Used
 
-- https://dummyjson.com/products  
-- https://fakestoreapi.com/products  
-
+- 
 If the API is unavailable, the app automatically falls back to local mock data.
 
